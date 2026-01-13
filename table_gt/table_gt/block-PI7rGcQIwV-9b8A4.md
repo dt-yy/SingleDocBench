@@ -1,0 +1,1 @@
+<table><tr><td>冲孔方法</td><td>芯料体积</td><td>芯料质量</td><td>备注</td></tr><tr><td>实心冲子冲孔</td><td>\( V = (0.15 \sim 0.2) d^2h \)</td><td rowspan="3">\( M_{芯} = V\rho \)</td><td>d——冲孔直径</td></tr><tr><td>空心冲子冲孔</td><td>\( V = 0.78d^2h \)</td><td>h——毛坯高度</td></tr><tr><td>垫环上冲孔</td><td>\( V = (0.55 \sim 0.60) d^2h \)</td><td>\( \rho \)——密度(\( kg/mm^3 \))</td></tr></table>
