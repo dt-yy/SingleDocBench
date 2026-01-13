@@ -1,0 +1,1 @@
+\xrightarrow [ \left( \begin{array}{c c c} 1 & - (\lambda - 8) & 6 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{array} \right) ]{\text {右 乘}} \left( \begin{array}{c c c} 1 & 0 & 0 \\ 0 & - \lambda^ {2} + 8 \lambda - 3 & 6 \lambda - 3 \\ 0 & 2 \lambda - 2 & \lambda - 2 \end{array} \right)

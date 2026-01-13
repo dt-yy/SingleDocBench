@@ -1,0 +1,1 @@
+\frac {\partial^ {2} u}{\partial x ^ {\partial} y} = \frac {\frac {\vert y \vert}{y} (x ^ {2} + y ^ {2}) - 2 y \vert y \vert}{(x ^ {2} + y ^ {2}) ^ {2}} = \frac {x ^ {2} s g n y - y \vert y \vert}{(x ^ {2} + y ^ {2}) ^ {2}} = \frac {(x ^ {2} - y ^ {2}) s g n y}{(x ^ {2} + y ^ {2}) ^ {2}} \quad (y \neq 0).

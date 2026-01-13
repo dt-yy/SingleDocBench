@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "cdb8e328-e0b8-431a-b9df-da87f185c82e",
+  "data_id": "7973ae22-f5ee-4a6c-90ee-8806452b6407",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rMMFgdV-A55Ir.png",
+  "latex": "\\left\\{\\begin{aligned}Y_{t}^{1}=A^{1}\\cdot\\left(K_{I,t}\\right)^{\\alpha_{1}}\\left\\{\\left[\\left(1-\\rho_{1}\\right)^{\\frac{1}{\\omega_{1}}}\\cdot\\left(K_{P,t}^{1}\\right)^{\\frac{\\omega_{1}-1}{\\omega_{1}}}+\\left(\\rho_{1}\\right)^{\\frac{1}{\\omega_{1}}}\\cdot\\left(L_{t}^{1}\\right)^{\\frac{\\omega_{1}-1}{\\omega_{1}}}\\right]^{\\frac{\\omega_{1}}{\\omega_{1}-1}}\\right\\}^{\\beta_{1}}\\\\ Y_{t}^{2}=A^{2}\\cdot\\left(K_{I,t}\\right)^{\\alpha_{2}}\\left\\{\\left[\\left(1-\\rho_{2}\\right)^{\\frac{1}{\\omega_{2}}}\\cdot\\left(K_{P,t}^{2}\\right)^{\\frac{\\omega_{2}-1}{\\omega_{2}}}+\\left(\\rho_{2}\\right)^{\\frac{1}{\\omega_{2}}}\\cdot\\left(L_{t}^{2}\\right)^{\\frac{\\omega_{2}-1}{\\omega_{2}}}\\right]^{\\frac{\\omega_{2}}{\\omega_{2}-1}}\\right\\}^{\\beta_{2}}\\end{aligned}\\right. \\tag{(3) }",
+  "tag": "(3) ",
+  "formula_gt": "\\begin{array}{l} Y _ {t} ^ {1} = A ^ {1} \\cdot \\left(K _ {I, t}\\right) ^ {\\alpha_ {1}} \\left\\{\\left[ \\left(1 - \\rho_ {1}\\right) ^ {\\frac {1}{\\omega_ {1}}} \\cdot \\left(K _ {P, t} ^ {1}\\right) ^ {\\frac {\\omega_ {1} - 1}{\\omega_ {1}}} + \\left(\\rho_ {1}\\right) ^ {\\frac {1}{\\omega_ {1}}} \\cdot \\left(L _ {t} ^ {1}\\right) ^ {\\frac {\\omega_ {1} - 1}{\\omega_ {1}}} \\right] ^ {\\frac {\\omega_ {1}}{\\omega_ {1} - 1}} \\right\\} ^ {\\beta_ {1}} \\\\ Y _ {t} ^ {2} = A ^ {2} \\cdot \\left(K _ {I, t}\\right) ^ {\\alpha_ {2}} \\left\\{\\left[ \\left(1 - \\rho_ {2}\\right) ^ {\\frac {1}{\\omega_ {2}}} \\cdot \\left(K _ {P, t} ^ {2}\\right) ^ {\\frac {\\omega_ {2} - 1}{\\omega_ {2}}} + \\left(\\rho_ {2}\\right) ^ {\\frac {1}{\\omega_ {2}}} \\cdot \\left(L _ {t} ^ {2}\\right) ^ {\\frac {\\omega_ {2} - 1}{\\omega_ {2}}} \\right] ^ {\\frac {\\omega_ {2}}{\\omega_ {2} - 1}} \\right\\} ^ {\\beta_ {2}} \\end{array} \\tag {3}",
+  "edit_distance": 176,
+  "normalized_edit_distance": 0.20276497695852536,
+  "block_name": "block-PI7rMMFgdV-A55Ir"
+}

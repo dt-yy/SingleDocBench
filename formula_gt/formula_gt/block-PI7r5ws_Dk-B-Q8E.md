@@ -1,0 +1,1 @@
+= 0 + \int_ {0} ^ {\pi / 2} 2 \sin^ {2} x \cos^ {2} x d x = \int_ {0} ^ {\pi / 2} 2 \sin^ {2} x \left(1 - \sin^ {2} x\right) d x

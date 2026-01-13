@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "6a13fbd1-97cf-4333-a14d-01cb4a492867",
+  "data_id": "93c668f7-cf9f-4a24-a8e2-748314c1fa5e",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7r4A9VlV-9SDOy.png",
+  "latex": "\\mathrm{\\delta L_{0}(\\underset{\\sim}{\\omega}, \\underset{\\sim}{\\bar{\\omega}})=\\delta L_{0}(u, v, \\sigma ; \\bar{u}, \\bar{v}, \\bar{\\sigma}})",
+  "tag": "",
+  "formula_gt": "\\delta L _ {0} (\\underset {\\sim} {\\omega}, \\underset {\\sim} {\\bar {\\omega}}) = \\delta L _ {0} (u, v, \\sigma ; \\bar {u}, \\bar {v}, \\bar {\\sigma})",
+  "edit_distance": 25,
+  "normalized_edit_distance": 0.1736111111111111,
+  "block_name": "block-PI7r4A9VlV-9SDOy"
+}

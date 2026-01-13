@@ -1,0 +1,1 @@
+\Delta_ {1} = \sup  _ {f \in Q _ {s} ^ {\alpha} (B)} \left. \| f (\boldsymbol {x}) - \sum_ {t _ {0} \leqslant T} {^ \prime} {^ \prime} \varphi_ {t} (\boldsymbol {x}) \right. \| _ {L _ {2}},

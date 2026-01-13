@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "43c5577d-106e-410d-9294-fe0fd03a0e35",
+  "data_id": "66994dd8-41d8-4813-952a-51244a6d6def",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7r3UOK0F-AcWWp.png",
+  "latex": "\\mathbf{M}_{\\boldsymbol{\\sigma}_{1}}=\\left[\\begin{array}{cc} {\\left[\\begin{array}{cc} \\mathbf{I}_{n_{1}}-\\mathbf{W}_{11} & -\\mathbf{W}_{12} \\\\ -\\mathbf{W}_{21} & \\mathbf{I}_{n_{2}}-\\mathbf{W}_{22} \\end{array}\\right]^{-1}} & \\mathbf{0} \\\\ -\\left[\\begin{array}{ll} \\mathbf{W}_{31} & \\mathbf{W}_{32} \\\\ \\mathbf{W}_{41} & \\mathbf{W}_{42} \\end{array}\\right]\\left[\\begin{array}{cc} \\mathbf{I}_{n_{1}}-\\mathbf{W}_{11} & -\\mathbf{W}_{12} \\\\ -\\mathbf{W}_{21} & \\mathbf{I}_{n_{2}}-\\mathbf{W}_{22} \\end{array}\\right]^{-1} & -\\mathbf{I}_{n_{3}+n_{4}} \\end{array}\\right],",
+  "tag": "",
+  "formula_gt": "\\mathbf {M} _ {\\boldsymbol {\\sigma} _ {1}} = \\left[ \\begin{array}{c c} {\\left[ \\begin{array}{c c} \\mathbf {I} _ {n _ {1}} - \\mathbf {W} _ {1 1} & - \\mathbf {W} _ {1 2} \\\\ - \\mathbf {W} _ {2 1} & \\mathbf {I} _ {n _ {2}} - \\mathbf {W} _ {2 2} \\end{array} \\right] ^ {- 1}} & \\mathbf {0} \\\\ - \\left[ \\begin{array}{l l l} \\mathbf {W} _ {3 1} & \\mathbf {W} _ {3 2} \\\\ \\mathbf {W} _ {4 1} & \\mathbf {W} _ {4 2} \\end{array} \\right] \\left[ \\begin{array}{c c} \\mathbf {I} _ {n _ {1}} - \\mathbf {W} _ {1 1} & - \\mathbf {W} _ {1 2} \\\\ - \\mathbf {W} _ {2 1} & \\mathbf {I} _ {n _ {2}} - \\mathbf {W} _ {2 2} \\end{array} \\right] ^ {- 1} & - \\mathbf {I} _ {n _ {3} + n _ {4}} \\end{array} \\right],",
+  "edit_distance": 121,
+  "normalized_edit_distance": 0.17820324005891017,
+  "block_name": "block-PI7r3UOK0F-AcWWp"
+}

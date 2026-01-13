@@ -1,0 +1,1 @@
+= \frac {1}{2 \pi} \oint_ {t ^ {\prime} = 0} X _ {A \dot {A}} (t) \left(\frac {t ^ {\prime} \left(t ^ {\prime} - a + b\right)}{t ^ {\prime} - a}\right) ^ {m} \mathrm {d} t ^ {\prime} \tag {5.5}

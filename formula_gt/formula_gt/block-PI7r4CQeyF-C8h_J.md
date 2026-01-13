@@ -1,0 +1,1 @@
+\left. \left(\frac {1 + \mathrm {A} ^ {2} \mathrm {B} ^ {4} \mathrm {C} ^ {2}}{\mathrm {B} ^ {2} r} - \frac {r ^ {3}}{\mathrm {A} ^ {2}}\right) \overline {{\beta}} _ {- 1} (r) \right] d r, \tag {7.348}

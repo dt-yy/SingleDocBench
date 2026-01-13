@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "7154cf61-5897-4250-adb1-db7a9e1e3f74",
+  "data_id": "4e715b7a-a327-40fa-904f-a5cde4c5a8a7",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7r6_lg5--9dkdE.png",
+  "latex": "\\begin{pmatrix}x^{3}+x^{2}+x+1&0&x^{7}+x^{6}+x^{5}+x^{4}\\\\0&x^{3}+x^{2}+x+1&x^{7}+x^{6}+x^{5}+x^{4}\\\\0&0&x^{4}-1\\end{pmatrix}.",
+  "tag": "",
+  "formula_gt": "\\left( \\begin{array}{c c c} x ^ {3} + x ^ {2} + x + 1 & 0 & x ^ {7} + x ^ {6} + x ^ {5} + x ^ {4} \\\\ 0 & x ^ {3} + x ^ {2} + x + 1 & x ^ {7} + x ^ {6} + x ^ {5} + x ^ {4} \\\\ 0 & 0 & x ^ {4} - 1 \\end{array} \\right).",
+  "edit_distance": 99,
+  "normalized_edit_distance": 0.46261682242990654,
+  "block_name": "block-PI7r6_lg5--9dkdE"
+}

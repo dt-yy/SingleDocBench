@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "1c1700b0-d245-4782-95c2-5808c3f70984",
+  "data_id": "6df1cb2f-b26f-4b94-a7eb-0df83ef7dc5d",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7r3-3yvV-9mOFs.png",
+  "latex": "\\cdot\\int_{|z|=1}\\frac{1}{1-\\bar{\\alpha}_{z}z}\\prod_{k=0}^{n-1}\\frac{z-\\alpha_{k}}{1-\\bar{\\alpha}_{k}z}",
+  "tag": "",
+  "formula_gt": "\\int_ {| k | = 1} \\frac {1}{1 - \\bar {\\alpha} _ {n} z} \\prod_ {k = 0} ^ {n - 1} \\frac {z - a _ {k}}{1 - \\bar {a} _ {k} z}",
+  "edit_distance": 48,
+  "normalized_edit_distance": 0.39669421487603307,
+  "block_name": "block-PI7r3-3yvV-9mOFs"
+}

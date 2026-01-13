@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "f929777b-41e6-463f-9a82-383bf22bbd93",
+  "data_id": "903ee848-55fa-4971-96ff-780fb2e0b082",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rLk3yvV-9mOpx.png",
+  "latex": "\\|T_{v}u\\|_{\\dot{\\mathrm{B}}_{1,1}^{s}(\\mathbb{R};\\dot{\\mathrm{B}}_{p,1}^{0}(\\mathbb{R}^{m}))}\\simeq\\sum_{j}2^{j s}\\|\\dot{S}_{j-1}^{t}v\\;\\dot{\\Delta}_{j}^{t}u\\|_{\\mathrm{L}_{1}(\\mathbb{R};\\dot{\\mathrm{B}}_{p,1}^{0}(\\mathbb{R}^{m}))}",
+  "tag": "",
+  "formula_gt": "\\left\\| T _ {v} u \\right\\| _ {\\dot {\\mathrm {B}} _ {1, 1} ^ {s} \\big (\\mathbb {R}; \\dot {\\mathrm {B}} _ {p, 1} ^ {0} \\big (\\mathbb {R} ^ {m} \\big) \\big)} \\simeq \\sum_ {j} 2 ^ {j s} \\left\\| \\dot {S} _ {j - 1} ^ {t} v \\dot {\\Delta} _ {j} ^ {t} u \\right\\| _ {\\mathrm {L} _ {1} \\big (\\mathbb {R}; \\dot {\\mathrm {B}} _ {p, 1} ^ {0} \\big (\\mathbb {R} ^ {m} \\big) \\big)}",
+  "edit_distance": 134,
+  "normalized_edit_distance": 0.3691460055096419,
+  "block_name": "block-PI7rLk3yvV-9mOpx"
+}

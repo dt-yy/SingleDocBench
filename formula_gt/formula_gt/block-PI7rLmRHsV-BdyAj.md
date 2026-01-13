@@ -1,0 +1,1 @@
+\lim  _ {x \to 0} x \ln | x | = \lim  _ {x \to 0} \frac {\ln | x |}{\frac {1}{x}} = \lim  _ {x \to 0} \frac {\frac {1}{x}}{- \frac {1}{x ^ {2}}} = \lim  _ {x \to 0} (- x) = 0,

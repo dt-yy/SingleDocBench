@@ -1,0 +1,1 @@
+Y ^ {\prime \prime} = \left[ \frac {d ^ {2} \varphi^ {i}}{d t ^ {2}} + 2 \left\{ \begin{array}{c} i \\ j k ^ {\prime} \end{array} \right\} \dot {x} ^ {j} \frac {d \varphi^ {k}}{d t} + \left\{\frac {\partial}{\partial x ^ {k}} \left\{ \begin{array}{c} i \\ j l \end{array} \right\} \right. \right.

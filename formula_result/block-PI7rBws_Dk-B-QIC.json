@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "9b7db6b3-3438-41bc-9c8c-486ad966093e",
+  "data_id": "d148b452-92f3-4ac0-a057-fcfb4ecc8f79",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rBws_Dk-B-QIC.png",
+  "latex": "\\mathbf{Y}^{\\prime\\prime}=\\left\\lceil\\frac{d^{2}\\boldsymbol{\\varphi}^{i}}{d t^{2}}+2\\left\\{\\begin{array}{l}{i}\\\\ {j k}\\end{array}\\right\\}\\dot{x}^{j}\\frac{d\\boldsymbol{\\varphi}^{k}}{d t}+\\left(\\frac{\\partial}{\\partial x^{k}}\\left\\{\\begin{array}{l}{i}\\\\ {j l}\\end{array}\\right\\}\\right.\\right.",
+  "tag": "",
+  "formula_gt": "Y ^ {\\prime \\prime} = \\left[ \\frac {d ^ {2} \\varphi^ {i}}{d t ^ {2}} + 2 \\left\\{ \\begin{array}{c} i \\\\ j k ^ {\\prime} \\end{array} \\right\\} \\dot {x} ^ {j} \\frac {d \\varphi^ {k}}{d t} + \\left\\{\\frac {\\partial}{\\partial x ^ {k}} \\left\\{ \\begin{array}{c} i \\\\ j l \\end{array} \\right\\} \\right. \\right.",
+  "edit_distance": 95,
+  "normalized_edit_distance": 0.32094594594594594,
+  "block_name": "block-PI7rBws_Dk-B-QIC"
+}

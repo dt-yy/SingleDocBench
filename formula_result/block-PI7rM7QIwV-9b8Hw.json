@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "c958a87d-8add-4940-898d-0d221fa6ada5",
+  "data_id": "25420b8a-fd10-4ec8-956e-d3b9be3c66b3",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rM7QIwV-9b8Hw.png",
+  "latex": "\\begin{array}{r l r}{\\dot{x}}&{{}=}&{\\dot{R}\\overbrace{(\\hat{\\boldsymbol{e}}_{R}\\cdot\\hat{\\boldsymbol{\\iota }})}^{\\cos\\theta}+R\\dot{\\theta}\\overbrace{(\\hat{\\boldsymbol{e}}_{\\theta}\\cdot\\hat{\\boldsymbol{\\iota }})}^{\\mathrm{~\\tiny~{~-~}\\sin\\theta}}}\\end{array}",
+  "tag": "",
+  "formula_gt": "\\dot {x} \\enspace = \\enspace \\dot {R} \\overbrace {(\\hat {e} _ {R} \\cdot \\hat {l})} ^ {\\cos \\theta} + R \\dot {\\theta} \\overbrace {(\\hat {e} _ {\\theta} \\cdot \\hat {l})} ^ {- \\sin \\theta}",
+  "edit_distance": 149,
+  "normalized_edit_distance": 0.5775193798449613,
+  "block_name": "block-PI7rM7QIwV-9b8Hw"
+}

@@ -1,0 +1,1 @@
+= \left[ - \frac {(\sqrt {E}) _ {\nu} ^ {\prime}}{\sqrt {G}} \mathrm {d} u + \frac {(\sqrt {G}) _ {u} ^ {\prime}}{\sqrt {E}} \mathrm {d} \nu \right] \wedge \left[ \frac {M}{\sqrt {G}} \mathrm {d} u + \frac {N}{\sqrt {G}} \mathrm {d} \nu \right]

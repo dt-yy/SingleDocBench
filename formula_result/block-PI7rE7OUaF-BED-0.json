@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "8e085ce8-452e-45b7-a24f-129c1d0c0291",
+  "data_id": "8c1e2cae-2a39-4679-b677-ff59ba5a1f54",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rE7OUaF-BED-0.png",
+  "latex": "\\left(-\\frac{\\left(\\sqrt{E}\\right)^{\\prime}_{\\nu}}{\\sqrt{G}}\\mathrm{d}u+\\frac{\\left(\\sqrt{G}\\right)^{\\prime}_{u}}{\\sqrt{E}}\\mathrm{d}\\nu\\right)\\wedge\\left(\\frac{M}{\\sqrt{G}}\\mathrm{d}u+\\frac{N}{\\sqrt{G}}\\mathrm{d}\\nu\\right)",
+  "tag": "",
+  "formula_gt": "= \\left[ - \\frac {(\\sqrt {E}) _ {\\nu} ^ {\\prime}}{\\sqrt {G}} \\mathrm {d} u + \\frac {(\\sqrt {G}) _ {u} ^ {\\prime}}{\\sqrt {E}} \\mathrm {d} \\nu \\right] \\wedge \\left[ \\frac {M}{\\sqrt {G}} \\mathrm {d} u + \\frac {N}{\\sqrt {G}} \\mathrm {d} \\nu \\right]",
+  "edit_distance": 79,
+  "normalized_edit_distance": 0.3237704918032787,
+  "block_name": "block-PI7rE7OUaF-BED-0"
+}

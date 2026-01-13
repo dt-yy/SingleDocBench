@@ -1,0 +1,1 @@
+\dot {x} \enspace = \enspace \dot {R} \overbrace {(\hat {e} _ {R} \cdot \hat {l})} ^ {\cos \theta} + R \dot {\theta} \overbrace {(\hat {e} _ {\theta} \cdot \hat {l})} ^ {- \sin \theta}

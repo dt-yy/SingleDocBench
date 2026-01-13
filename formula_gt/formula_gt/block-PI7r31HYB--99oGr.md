@@ -1,0 +1,1 @@
+\frac {\frac {p}{\xi_ {2} h _ {2}} - \left(1 - \cos h \xi_ {2} h _ {2}\right)}{\left(p \cos h \xi_ {2} h _ {2} - \sin h \xi_ {2} h _ {2}\right) ^ {2}} \big ] \cdot \left(\sin h \xi_ {1} h _ {1}\right) ^ {2}

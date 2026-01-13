@@ -1,0 +1,1 @@
++ \left[ \begin{array}{l} W (k, 2 l - 2) \\ W ^ {*} (k, 2 l - 3) \end{array} \right] ^ {H} \left[ \begin{array}{l} W (k, 2 l - 1) \\ W ^ {*} (k, 2 l) \end{array} \right] \tag {23}

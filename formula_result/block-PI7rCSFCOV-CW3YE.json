@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "59014329-6503-4c41-8cb0-fcae37ae021a",
+  "data_id": "be787d42-269b-443d-8b23-683113d21226",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rCSFCOV-CW3YE.png",
+  "latex": "={n c_{s}^{2}\\mathsf{q}\\mathcal{D}+(1-c_{s}^{2})q S^{\\beta}\\partial_{\\beta}\\hat{q}}-\\frac{\\partial c_{s}}{\\partial\\hat{h}}c_{s}^{-1}(G^{-1})^{\\alpha\\beta}\\partial_{\\alpha}\\hat{h}\\partial_{\\beta}\\hat{h}",
+  "tag": "",
+  "formula_gt": "= n c _ {s} ^ {2} \\mathrm {q} \\mathcal {D} + \\left(1 - c _ {s} ^ {2}\\right) q S ^ {\\beta} \\partial_ {\\beta} \\hat {q} - \\frac {\\partial c _ {s}}{\\partial \\hat {h}} c _ {s} ^ {- 1} \\left(G ^ {- 1}\\right) ^ {\\alpha \\beta} \\partial_ {\\alpha} \\hat {h} \\partial_ {\\beta} \\hat {h}",
+  "edit_distance": 76,
+  "normalized_edit_distance": 0.2783882783882784,
+  "block_name": "block-PI7rCSFCOV-CW3YE"
+}

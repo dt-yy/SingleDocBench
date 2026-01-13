@@ -1,0 +1,1 @@
++ 2 f _ {3} ^ {\varepsilon} \left(\int_ {0} ^ {\theta} f _ {2} ^ {\varepsilon} \left(\int_ {0} ^ {\theta} f _ {2} ^ {\varepsilon}\right)\right) ] d \theta

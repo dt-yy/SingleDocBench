@@ -1,0 +1,1 @@
+\left(x - \operatorname {p r o j} _ {y} (x) \mid \operatorname {p r o j} _ {y} (x)\right) = \left(\left. x - \frac {(x \mid y)}{(y \mid y)} y \right\rvert   \frac {(x \mid y)}{(y \mid y)} y\right)

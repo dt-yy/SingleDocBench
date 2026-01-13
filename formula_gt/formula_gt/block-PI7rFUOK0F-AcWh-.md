@@ -1,0 +1,1 @@
+0 \leq q c _ {e, s} \leq \left\lbrack \alpha c _ {e} \cdot \overline {{Q C}} _ {e} \right.

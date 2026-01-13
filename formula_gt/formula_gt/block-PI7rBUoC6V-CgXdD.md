@@ -1,0 +1,1 @@
+V = \left[ \begin{array}{c c c c} V _ {1} & 0 & \dots & 0 \\ 0 & V _ {2} & \dots & 0 \\ \dots & \dots & \dots & \dots \\ 0 & 0 & \dots & V _ {G} \end{array} \right] \tag {5}

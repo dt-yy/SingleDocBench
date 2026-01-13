@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "d37cbedd-09fd-4307-9c0f-2b9a2293af7e",
+  "data_id": "11517430-90ba-4bfc-a42f-b46799d7c2c0",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rLQ9VlV-9SDoD.png",
+  "latex": "+\\int_{0}^{T}\\left\\{\\frac{\\partial H}{\\partial a}(t)-\\frac{\\partial b}{\\partial a}(t)p(t)-\\frac{\\partial\\sigma}{\\partial a}(t)q(t)\\right.",
+  "tag": "",
+  "formula_gt": "+ \\int_ {0} ^ {T} \\left\\{\\frac {\\partial H}{\\partial a} (t) - \\frac {\\partial b}{\\partial a} (t) p (t) - \\frac {\\partial \\sigma}{\\partial a} (t) q (t) \\right.",
+  "edit_distance": 21,
+  "normalized_edit_distance": 0.13291139240506328,
+  "block_name": "block-PI7rLQ9VlV-9SDoD"
+}

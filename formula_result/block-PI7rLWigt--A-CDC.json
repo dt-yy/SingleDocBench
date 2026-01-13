@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "912436ad-016f-419f-9d9a-00caad67e56c",
+  "data_id": "4540773f-145a-40ab-917e-893728826d78",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rLWigt--A-CDC.png",
+  "latex": "$ \\begin{pmatrix}0000\\\\0100\\\\0000\\\\0000\\end{pmatrix}\\begin{pmatrix}0000\\\\0000\\\\0000\\\\0000\\end{pmatrix}\\begin{pmatrix}0000\\\\0000\\\\0000\\\\0000\\end{pmatrix}\\begin{pmatrix}0000\\\\0000\\\\0000\\\\0000\\end{pmatrix}+\\begin{pmatrix}0000\\\\0000\\\\0000\\\\0000\\end{pmatrix}\\begin{pmatrix}00\\overline{1}1\\\\0000\\\\001\\overline{1}\\\\0000\\end{pmatrix}\\begin{pmatrix}0000\\\\0000\\\\0000\\\\0000\\end{pmatrix}\\begin{pmatrix}00\\overline{1}1\\\\0000\\\\001\\overline{1}\\\\0000\\end{pmatrix}+ $",
+  "tag": "",
+  "formula_gt": "\\left( \\begin{array}{l l l l} 0 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\end{array} \\right) \\left( \\begin{array}{l l l l} 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\end{array} \\right) \\left( \\begin{array}{l l l l} 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\end{array} \\right) \\left( \\begin{array}{l l l l} 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\end{array} \\right) + \\left( \\begin{array}{l l l l} 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\end{array} \\right) \\left( \\begin{array}{l l l l} 0 & 0 & \\overline {{1}} & 1 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 1 & \\overline {{1}} \\\\ 0 & 0 & 0 & 0 \\end{array} \\right) \\left( \\begin{array}{l l l l} 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 \\end{array} \\right) \\left( \\begin{array}{l l l l} 0 & 0 & \\overline {{1}} & 1 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 0 & 1 & \\overline {{1}} \\\\ 0 & 0 & 0 & 0 \\end{array} \\right) +",
+  "edit_distance": 620,
+  "normalized_edit_distance": 0.6332992849846782,
+  "block_name": "block-PI7rLWigt--A-CDC"
+}

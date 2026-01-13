@@ -1,0 +1,1 @@
+= \binom {\frac {1}{\sqrt {3}} H _ {d} + \frac {1}{2} \left(1 + \frac {1}{\sqrt {3}}\right) M _ {d 1} + \frac {1}{2} \left(1 - \frac {1}{\sqrt {3}}\right) M _ {d 2}} {\frac {1}{\sqrt {3}} H _ {d} + \frac {1}{2} \left(- 1 + \frac {1}{\sqrt {3}}\right) M _ {d 1} - \frac {1}{2} \left(1 + \frac {1}{\sqrt {3}}\right) M _ {d 2}}, \tag {41}

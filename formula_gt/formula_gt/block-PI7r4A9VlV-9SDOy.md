@@ -1,0 +1,1 @@
+\delta L _ {0} (\underset {\sim} {\omega}, \underset {\sim} {\bar {\omega}}) = \delta L _ {0} (u, v, \sigma ; \bar {u}, \bar {v}, \bar {\sigma})

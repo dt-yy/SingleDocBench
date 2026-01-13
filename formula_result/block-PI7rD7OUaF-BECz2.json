@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "b662d90a-5c0b-4a95-a823-60471facfeb1",
+  "data_id": "77f1cb71-275a-4a8c-a16e-23f02c3025e1",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rD7OUaF-BECz2.png",
+  "latex": "\\left(x-\\operatorname{proj}_{y}\\left(x\\right)|\\operatorname{proj}_{y}\\left(x\\right)\\right)=\\left(x-\\frac{\\left(x|y\\right)}{\\left(y|y\\right)}y\\left|\\frac{\\left(x|y\\right)}{\\left(y|y\\right)}y\\right.\\right)",
+  "tag": "",
+  "formula_gt": "\\left(x - \\operatorname {p r o j} _ {y} (x) \\mid \\operatorname {p r o j} _ {y} (x)\\right) = \\left(\\left. x - \\frac {(x \\mid y)}{(y \\mid y)} y \\right\\rvert   \\frac {(x \\mid y)}{(y \\mid y)} y\\right)",
+  "edit_distance": 110,
+  "normalized_edit_distance": 0.541871921182266,
+  "block_name": "block-PI7rD7OUaF-BECz2"
+}

@@ -1,0 +1,1 @@
+\int_ {| k | = 1} \frac {1}{1 - \bar {\alpha} _ {n} z} \prod_ {k = 0} ^ {n - 1} \frac {z - a _ {k}}{1 - \bar {a} _ {k} z}

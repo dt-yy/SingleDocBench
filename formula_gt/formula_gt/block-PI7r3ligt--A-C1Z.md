@@ -1,0 +1,1 @@
+\left. - 3 0 \left(\hat {q _ {\nu}} + 4 \lambda\right) ^ {5 / 2} \log \left(1 - \frac {\hat {q _ {\nu}}}{\sqrt {\hat {q _ {\nu}} \left(\hat {q _ {\nu}} + 4 \lambda\right)}}\right)\right) + \frac {1}{1 8 {\hat {q _ {\nu}}} ^ {3}} \left(6 \hat {q _ {\nu}} + 1 5 {\hat {q _ {\nu}}} ^ {2} + 1 3 {\hat {q _ {\nu}}} ^ {3} - 1 2 \hat {q _ {\nu}} \lambda \right.

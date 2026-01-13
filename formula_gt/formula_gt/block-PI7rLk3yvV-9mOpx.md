@@ -1,0 +1,1 @@
+\left\| T _ {v} u \right\| _ {\dot {\mathrm {B}} _ {1, 1} ^ {s} \big (\mathbb {R}; \dot {\mathrm {B}} _ {p, 1} ^ {0} \big (\mathbb {R} ^ {m} \big) \big)} \simeq \sum_ {j} 2 ^ {j s} \left\| \dot {S} _ {j - 1} ^ {t} v \dot {\Delta} _ {j} ^ {t} u \right\| _ {\mathrm {L} _ {1} \big (\mathbb {R}; \dot {\mathrm {B}} _ {p, 1} ^ {0} \big (\mathbb {R} ^ {m} \big) \big)}

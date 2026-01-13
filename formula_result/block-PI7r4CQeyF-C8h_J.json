@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "033f2c72-1d19-4d2f-b5a7-870a736d7984",
+  "data_id": "d32c456d-b3bb-41a1-91be-8685c05bc530",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7r4CQeyF-C8h_J.png",
+  "latex": "\\left(\\frac{1+\\mathsf{A}^{2}\\mathsf{B}^{4}\\mathsf{C}^{2}}{\\mathsf{B}^{2}r}-\\frac{r^{3}}{\\mathsf{A}^{2}}\\right)\\overline{{\\beta}}_{-1}(r)\\Bigg]d r,\\qquad\\quad(7.348)",
+  "tag": "",
+  "formula_gt": "\\left. \\left(\\frac {1 + \\mathrm {A} ^ {2} \\mathrm {B} ^ {4} \\mathrm {C} ^ {2}}{\\mathrm {B} ^ {2} r} - \\frac {r ^ {3}}{\\mathrm {A} ^ {2}}\\right) \\overline {{\\beta}} _ {- 1} (r) \\right] d r, \\tag {7.348}",
+  "edit_distance": 66,
+  "normalized_edit_distance": 0.3283582089552239,
+  "block_name": "block-PI7r4CQeyF-C8h_J"
+}

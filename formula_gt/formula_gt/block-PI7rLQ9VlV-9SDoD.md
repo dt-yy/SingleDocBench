@@ -1,0 +1,1 @@
++ \int_ {0} ^ {T} \left\{\frac {\partial H}{\partial a} (t) - \frac {\partial b}{\partial a} (t) p (t) - \frac {\partial \sigma}{\partial a} (t) q (t) \right.

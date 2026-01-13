@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "b3ad78f3-985b-4ff7-a326-b181ffc1c4eb",
+  "data_id": "0123d66f-f730-412b-b568-7f863d740213",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rBBs_Dk-B-QGY.png",
+  "latex": "\\begin{aligned}r_{_{D}}\\left.\\frac{\\partial p_{_{fD}}}{\\partial r_{_{D}}}\\right|_{r_{_{D}}\\rightarrow0}=\\left\\{\\begin{aligned}&-\\frac{1}{h_{_{fD}}}&,\\quad&\\left|z_{_{D}}-z_{_{wD}}\\right|\\leq\\frac{h_{_{wD}}}{2}\\\\&\\mathbf{0}&,\\quad&\\left|z_{_{D}}-z_{_{wD}}\\right|>\\frac{h_{_{wD}}}{2}\\end{aligned}\\right.\\end{aligned} \\tag{(4-14)}",
+  "tag": "(4-14)",
+  "formula_gt": "\\left. r _ {D} \\frac {\\partial p _ {f D}}{\\partial r _ {D}} \\right| _ {r _ {D} \\rightarrow 0} = \\left\\{ \\begin{array}{l l l} - \\frac {1}{h _ {f D}} & , & \\left| z _ {D} - z _ {w D} \\right| \\leq \\frac {h _ {w D}}{2} \\\\ 0 & , & \\left| z _ {D} - z _ {w D} \\right| > \\frac {h _ {w D}}{2} \\end{array} \\right. \\tag {4-14}",
+  "edit_distance": 148,
+  "normalized_edit_distance": 0.4525993883792049,
+  "block_name": "block-PI7rBBs_Dk-B-QGY"
+}

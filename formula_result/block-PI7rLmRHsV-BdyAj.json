@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "f15307b0-5bf7-4efe-ab3e-87719e717e45",
+  "data_id": "66eeeacc-bbe8-49d7-847f-ec338a6d7488",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rLmRHsV-BdyAj.png",
+  "latex": "{\\lim_{x\\to0}x\\ln|x|=\\lim_{x\\to0}\\frac{\\ln|x|}{\\frac{1}{x}}=\\lim_{x\\to0}\\frac{\\frac{1}{x}}{-\\frac{1}{x^{2}}}=\\lim_{x\\to0}(-x)=0, }",
+  "tag": "",
+  "formula_gt": "\\lim  _ {x \\to 0} x \\ln | x | = \\lim  _ {x \\to 0} \\frac {\\ln | x |}{\\frac {1}{x}} = \\lim  _ {x \\to 0} \\frac {\\frac {1}{x}}{- \\frac {1}{x ^ {2}}} = \\lim  _ {x \\to 0} (- x) = 0,",
+  "edit_distance": 51,
+  "normalized_edit_distance": 0.2914285714285714,
+  "block_name": "block-PI7rLmRHsV-BdyAj"
+}

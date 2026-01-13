@@ -1,0 +1,1 @@
+\left. r _ {D} \frac {\partial p _ {f D}}{\partial r _ {D}} \right| _ {r _ {D} \rightarrow 0} = \left\{ \begin{array}{l l l} - \frac {1}{h _ {f D}} & , & \left| z _ {D} - z _ {w D} \right| \leq \frac {h _ {w D}}{2} \\ 0 & , & \left| z _ {D} - z _ {w D} \right| > \frac {h _ {w D}}{2} \end{array} \right. \tag {4-14}

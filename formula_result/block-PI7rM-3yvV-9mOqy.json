@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "62bbc0ba-6818-493d-ab3d-cfaff522f1bb",
+  "data_id": "6f15cab7-2bbd-4327-9e32-de88effe4dfd",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rM-3yvV-9mOqy.png",
+  "latex": "\\xrightarrow[ \\begin{pmatrix} 1 & -(\\lambda-8) & 6 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}]{右乘} \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & -\\lambda^2+8\\lambda-3 & 6\\lambda-3 \\\\ 0 & 2\\lambda-2 & \\lambda-2 \\end{pmatrix}",
+  "tag": "",
+  "formula_gt": "\\xrightarrow [ \\left( \\begin{array}{c c c} 1 & - (\\lambda - 8) & 6 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{array} \\right) ]{\\text {右 乘}} \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & - \\lambda^ {2} + 8 \\lambda - 3 & 6 \\lambda - 3 \\\\ 0 & 2 \\lambda - 2 & \\lambda - 2 \\end{array} \\right)",
+  "edit_distance": 89,
+  "normalized_edit_distance": 0.3248175182481752,
+  "block_name": "block-PI7rM-3yvV-9mOqy"
+}

@@ -1,0 +1,1 @@
+= n c _ {s} ^ {2} \mathrm {q} \mathcal {D} + \left(1 - c _ {s} ^ {2}\right) q S ^ {\beta} \partial_ {\beta} \hat {q} - \frac {\partial c _ {s}}{\partial \hat {h}} c _ {s} ^ {- 1} \left(G ^ {- 1}\right) ^ {\alpha \beta} \partial_ {\alpha} \hat {h} \partial_ {\beta} \hat {h}

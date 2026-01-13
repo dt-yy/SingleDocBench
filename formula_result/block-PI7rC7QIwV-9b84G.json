@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "64e8477e-f88a-4406-96bd-9fb03bdf8226",
+  "data_id": "2de811da-4728-4a6b-8876-fb2d654c09db",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rC7QIwV-9b84G.png",
+  "latex": "\\begin{aligned}\\frac{\\partial^{2}u}{\\partial x\\partial y}=&\\frac{\\frac{\\left|y\\right|}{y}\\left(x^{2}+y^{2}\\right)-2y\\left|y\\right|}{\\left(x^{2}+y^{2}\\right)^{2}}=\\frac{x^{2}\\operatorname{sgn}y-y\\left|y\\right|}{\\left(x^{2}+y^{2}\\right)^{2}}=\\frac{\\left(x^{2}-y^{2}\\right)\\operatorname{sgn}y}{\\left(x^{2}+y^{2}\\right)^{2}}\\quad(y\\neq0).\\end{aligned}",
+  "tag": "",
+  "formula_gt": "\\frac {\\partial^ {2} u}{\\partial x ^ {\\partial} y} = \\frac {\\frac {\\vert y \\vert}{y} (x ^ {2} + y ^ {2}) - 2 y \\vert y \\vert}{(x ^ {2} + y ^ {2}) ^ {2}} = \\frac {x ^ {2} s g n y - y \\vert y \\vert}{(x ^ {2} + y ^ {2}) ^ {2}} = \\frac {(x ^ {2} - y ^ {2}) s g n y}{(x ^ {2} + y ^ {2}) ^ {2}} \\quad (y \\neq 0).",
+  "edit_distance": 210,
+  "normalized_edit_distance": 0.6051873198847262,
+  "block_name": "block-PI7rC7QIwV-9b84G"
+}

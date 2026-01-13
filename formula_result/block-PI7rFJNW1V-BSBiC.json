@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "0d263f57-4dab-43a0-ae72-aae824a0ffa0",
+  "data_id": "5d97bc03-b5b2-4ec6-ac44-0e5c60b667a4",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7rFJNW1V-BSBiC.png",
+  "latex": "\\left.+2f_{3}^{\\varepsilon}\\left(\\int_{0}^{\\theta}f_{2}^{\\varepsilon}\\left(\\int_{0}^{\\theta}f_{2}^{\\varepsilon}\\right)\\right)\\right]d\\theta",
+  "tag": "",
+  "formula_gt": "+ 2 f _ {3} ^ {\\varepsilon} \\left(\\int_ {0} ^ {\\theta} f _ {2} ^ {\\varepsilon} \\left(\\int_ {0} ^ {\\theta} f _ {2} ^ {\\varepsilon}\\right)\\right) ] d \\theta",
+  "edit_distance": 38,
+  "normalized_edit_distance": 0.24675324675324675,
+  "block_name": "block-PI7rFJNW1V-BSBiC"
+}

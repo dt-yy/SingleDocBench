@@ -1,0 +1,11 @@
+{
+  "questionnaire_id": "5e4b2bed-cf2b-48c4-b1c8-acc90ea56b97",
+  "data_id": "d9906d75-7fc2-4a1d-8884-e6d229aa3f86",
+  "image_link": "https://pub-link.shlab.tech/ddp-blocks/block-PI7r31HYB--99oGr.png",
+  "latex": "\\frac{\\frac{p}{\\xi_{2}h_{2}}-(1-\\cos h\\xi_{2}h_{2})}{(p\\cos h\\xi_{2}h_{2}-\\sin h\\xi_{2}h_{2})^{2}}]\\cdot(\\sin h\\xi_{1}h_{1})^{2}",
+  "tag": "",
+  "formula_gt": "\\frac {\\frac {p}{\\xi_ {2} h _ {2}} - \\left(1 - \\cos h \\xi_ {2} h _ {2}\\right)}{\\left(p \\cos h \\xi_ {2} h _ {2} - \\sin h \\xi_ {2} h _ {2}\\right) ^ {2}} \\big ] \\cdot \\left(\\sin h \\xi_ {1} h _ {1}\\right) ^ {2}",
+  "edit_distance": 78,
+  "normalized_edit_distance": 0.3786407766990291,
+  "block_name": "block-PI7r31HYB--99oGr"
+}
