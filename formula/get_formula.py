@@ -1,14 +1,9 @@
 import os
 import re
-import pdb
 import json
-import shutil
-import requests
-import numpy as np
-from PIL import Image
-from io import BytesIO
+import time
 from tqdm.auto import tqdm
-import statistics
+from collections import defaultdict
 
 # 添加Levenshtein距离计算函数
 def levenshtein_distance(s1, s2):
@@ -47,7 +42,7 @@ def normalized_edit_distance(s1, s2):
     max_len = max(len(s1), len(s2))
     return distance / max_len
 
-# 之前的辅助函数保持不变
+# 辅助函数保持不变
 def replace_dots(latex):
     pattern = r'\.{3,}'
     latex = re.sub(pattern, r'\\dots', latex)
@@ -75,41 +70,25 @@ def clean_error_macro(latex):
     return latex
 
 def clean_chinese_quotes(latex):
-    pattern = r'\^\{\“\}'
+    pattern = r'\^\{\"\"\}'
     latex = re.sub(pattern, r'^{\\prime\\prime}', latex)
     
-    pattern = r'\^\{\”\}'
+    pattern = r'\^\{\"\}'
+    latex = re.sub(pattern, r'^{\\prime}', latex)
+    
+    pattern = r'\"'
     latex = re.sub(pattern, r'^{\\prime\\prime}', latex)
     
-    pattern = r'\^\{\‘\}'
-    latex = re.sub(pattern, r'^{\\prime}', latex)
-    
-    pattern = r'\^\{\’\}'
-    latex = re.sub(pattern, r'^{\\prime}', latex)
-    
-    pattern = r'\“'
+    pattern = r"''"
     latex = re.sub(pattern, r'^{\\prime\\prime}', latex)
     
-    pattern = r'\”'
-    latex = re.sub(pattern, r'^{\\prime\\prime}', latex)
-    
-    pattern = r'\‘'
+    pattern = r"'"
     latex = re.sub(pattern, r'^{\\prime}', latex)
     
-    pattern = r'\’'
-    latex = re.sub(pattern, r'^{\\prime}', latex)
-    
-    pattern = r'\（'
-    latex = re.sub(pattern, r'(', latex)
-    
-    pattern = r'\）'
-    latex = re.sub(pattern, r')', latex)
+    pattern = r'\\doubleprime'
+    latex = re.sub(pattern, r'\\prime\\prime', latex)
     
     return latex
-
-def has_consecutive_dots(latex):
-    pattern = r'(\\dots){3,}'
-    return bool(re.search(pattern, latex))
 
 def clean_super_sub_script(latex):
     pattern = r'\^\{\}'
@@ -173,8 +152,6 @@ def clean_prime(latex):
     latex = re.sub(pattern, r'^{\\prime\\prime}', latex)
     pattern = r"'"
     latex = re.sub(pattern, r'^{\\prime}', latex)
-    pattern = r"\\doubleprime"
-    latex = re.sub(pattern, r'\\prime\\prime', latex)
     return latex
 
 def clean_ell(latex):
@@ -199,116 +176,142 @@ def latex_clean(latex):
     latex = clean_super_sub_script(latex)
     return latex
 
-def get_formula(input_path, output_path, formula_gt_dir):
-    span_data_final_0826_2k_filtered = list()
+def sanitize_filename(filename):
+    """
+    清理文件名，移除空格和特殊字符
+    """
+    # 移除空格
+    filename = filename.replace(" ", "_")
     
-    # 1. 首先收集所有处理后的数据
-    for formula_filr in os.listdir(input_path):
-        formula_path = os.path.join(input_path, formula_filr)
-        lines = open(formula_path, encoding='utf-8').read().split("\n")
-        data_all = [json.loads(line) for line in lines if len(line) > 0]
-        print(f"Processing {formula_filr}, found {len(data_all)} samples")
+    # 移除其他可能导致问题的字符
+    filename = re.sub(r'[<>:"/\\|?*]', '_', filename)
+    
+    # 移除首尾的点
+    filename = filename.strip('.')
+    
+    return filename
+
+def process_single_jsonl(jsonl_file_path, jsonl_filename, formula_gt_dir):
+    """
+    处理单个JSONL文件，只计算平均值
+    
+    Args:
+        jsonl_file_path (str): JSONL文件完整路径
+        jsonl_filename (str): JSONL文件名（不带扩展名）
+        formula_gt_dir (str): GT文件目录
         
-        span_data_final_0826_2k = []
-        for sample in data_all:
-            questionnaire_id = sample["questionnaire_id"]
-            data_id = sample["data_id"]
+    Returns:
+        tuple: (原始编辑距离平均值, 归一化编辑距离平均值, 总样本数, 有GT的样本数)
+    """
+    print(f"处理文件: {jsonl_filename}")
+    
+    # 读取JSONL文件
+    try:
+        with open(jsonl_file_path, encoding='utf-8') as f:
+            lines = f.read().split("\n")
+    except Exception as e:
+        print(f"  错误: 无法读取文件 {jsonl_filename}: {e}")
+        return 0.0, 0.0, 0, 0
+    
+    data_all = [json.loads(line) for line in lines if len(line) > 0]
+    print(f"  读取到 {len(data_all)} 个样本")
+    
+    # 处理每个样本
+    samples = []
+    for sample in data_all:
+        # 检查数据有效性
+        if sample.get("evaluation", {}).get("conversation_evaluation") is None:
+            continue
+        
+        # 无法标注内容
+        if any(item.get("not_ok") == "true" for item in sample["evaluation"]["conversation_evaluation"].get("contents", [])):
+            continue
+        
+        # 获取图片链接
+        try:
             image_link = sample["prompt"].replace("![image 1]", "")[1:-1]
-            
-            if sample["evaluation"]["conversation_evaluation"] is None:
-                continue
-            
-            # 无法标注内容
-            if any(item["not_ok"] == "true" for item in sample["evaluation"]["conversation_evaluation"]["contents"]):
-                continue
-            
+        except Exception:
+            continue
+        
+        # 获取标签内容
+        tag_content = None
+        if "tag_content" in sample["evaluation"]["conversation_evaluation"] and sample["evaluation"]["conversation_evaluation"]["tag_content"]:
             if "content" in sample["evaluation"]["conversation_evaluation"]["tag_content"][0]:
                 tag_content = sample["evaluation"]["conversation_evaluation"]["tag_content"][0]["content"]
-            else:
-                tag_content = None
-            
-            span_data_final_0826_2k.append({
-                "questionnaire_id": questionnaire_id,
-                "data_id": data_id,
-                "image_link": image_link,
-                "latex": sample["evaluation"]["conversation_evaluation"]["contents"][0]["content"],
-                "tag": tag_content,
-            })
         
-        for sample in span_data_final_0826_2k:
-            if "\\textbf" in sample["latex"] or \
-                "\\textit" in sample["latex"] or \
-                "《" in sample["latex"] or "》" in sample["latex"] or \
-                "\\columneqq" in sample["latex"] or "\\phantom" in sample["latex"] or \
-                "\\placeholder" in sample["latex"]:
-                continue
-                
-            latex = sample["latex"]
-            matches = re.findall(r'\\text\{([^}]*)\}', latex)
-            if any(
-                "“" in m or "”" in m or "‘" in m or "’" in m or "\\" in m or \
-                "'" in m or '"' in m or "''" in m or '""' in m or "-" in m or "&" in m \
-                or len(m.strip()) == 0 for m in matches
-            ):
-                continue
-                
-            if sample["tag"] and "\\" in sample["tag"]:
-                continue
-                
-            latex_cleaned = latex_clean(latex)
-            sample["latex"] = latex_cleaned
-            span_data_final_0826_2k_filtered.append(sample)
+        # 获取LaTeX内容
+        latex_content = ""
+        if "contents" in sample["evaluation"]["conversation_evaluation"] and sample["evaluation"]["conversation_evaluation"]["contents"]:
+            latex_content = sample["evaluation"]["conversation_evaluation"]["contents"][0].get("content", "")
+        
+        samples.append({
+            "image_link": image_link,
+            "latex": latex_content,
+            "tag": tag_content,
+        })
     
-    # 2. 处理LaTeX格式并添加tag
-    for sample_idx, sample in enumerate(span_data_final_0826_2k_filtered):
+    # 过滤样本
+    filtered_samples = []
+    for sample in samples:
+        latex = sample["latex"]
+        
+        # 跳过包含特定内容的样本
+        if any(bad in latex for bad in ["\\textbf", "\\textit", "《", "》", "\\columneqq", "\\phantom", "\\placeholder"]):
+            continue
+        
+        # 检查文本内容
+        matches = re.findall(r'\\text\{([^}]*)\}', latex)
+        if any(
+            any(ch in m for ch in ["\"", "'", "''", '""', "-", "&"]) or \
+            len(m.strip()) == 0 for m in matches
+        ):
+            continue
+        
+        # 检查标签
+        if sample["tag"] and "\\" in sample["tag"]:
+            continue
+        
+        # 清理LaTeX
+        latex_cleaned = latex_clean(latex)
+        sample["latex"] = latex_cleaned
+        filtered_samples.append(sample)
+    
+    print(f"  过滤后剩余 {len(filtered_samples)} 个样本")
+    
+    # 处理LaTeX格式并添加tag
+    for sample in filtered_samples:
         latex = sample["latex"].strip()
         
         # 移除LaTeX公式的标记符号
-        if latex.startswith("$$"):
-            latex = latex[2:]
-            latex = latex.strip()
-        if latex.startswith("$"):
-            latex = latex[1:]
-            latex = latex.strip()
-        if latex.startswith("\\["):
-            latex = latex[2:]
-            latex = latex.strip()
-        if latex.endswith("$$"):
-            latex = latex[:-2]
-            latex = latex.strip()
-        if latex.endswith("$"):
-            latex = latex[:-1]
-            latex = latex.strip()
-        if latex.endswith("\\]"):
-            latex = latex[:-2]
-            latex = latex.strip()
+        markers = [("$$", 2), ("$", 1), ("\\[", 2)]
+        for start_marker, length in markers:
+            if latex.startswith(start_marker):
+                latex = latex[length:].strip()
         
-        span_data_final_0826_2k_filtered[sample_idx]["latex"] = latex
+        markers_end = [("$$", 2), ("$", 1), ("\\]", 2)]
+        for end_marker, length in markers_end:
+            if latex.endswith(end_marker):
+                latex = latex[:-length].strip()
         
+        # 添加标签
         if sample["tag"]:
-            span_data_final_0826_2k_filtered[sample_idx]["latex"] += " \\tag" + "{" + sample["tag"] + "}"
+            latex += " \\tag" + "{" + sample["tag"] + "}"
+        
+        sample["latex"] = latex
     
     # 初始化统计变量
-    edit_distances = []
-    normalized_distances = []
+    edit_distances_sum = 0
+    normalized_distances_sum = 0
+    valid_samples_count = 0
     
-    # 3. 保存JSON文件并关联对应的.md文件，同时计算编辑距离
-    for sample in tqdm(span_data_final_0826_2k_filtered, desc="Processing samples"):
-        image_link = sample["image_link"]
-        
-        # 从图片链接中提取block_name
-        block_name = os.path.basename(image_link)
-        
-        # 移除图片扩展名，获取基础文件名
-        base_name = os.path.splitext(block_name)[0]  # 例如：block-PI7rE7OUaF-BED-0
-        
+    # 计算编辑距离
+    for sample in tqdm(filtered_samples, desc=f"计算 {jsonl_filename}", leave=False):
         # 获取处理后的latex
         processed_latex = sample["latex"]
         
-        # 初始化formula_gt和编辑距离
-        formula_gt_content = ""
-        edit_distance = None
-        normalized_dist = None
+        # 从图片链接中提取block_name
+        block_name = os.path.basename(sample["image_link"])
+        base_name = os.path.splitext(block_name)[0]
         
         # 检查对应的.md文件是否存在
         md_file_path = os.path.join(formula_gt_dir, f"{base_name}.md")
@@ -323,106 +326,106 @@ def get_formula(input_path, output_path, formula_gt_dir):
                     edit_distance = levenshtein_distance(processed_latex, formula_gt_content)
                     normalized_dist = normalized_edit_distance(processed_latex, formula_gt_content)
                     
-                    # 添加到统计列表中
-                    edit_distances.append(edit_distance)
-                    normalized_distances.append(normalized_dist)
+                    # 累加距离
+                    edit_distances_sum += edit_distance
+                    normalized_distances_sum += normalized_dist
+                    valid_samples_count += 1
                     
-            except Exception as e:
-                print(f"Error reading {md_file_path}: {e}")
-                formula_gt_content = ""
-        else:
-            print(f"Warning: No .md file found for {base_name}")
-        
-        # 更新sample数据，添加formula_gt和编辑距离
-        sample["formula_gt"] = formula_gt_content
-        if edit_distance is not None:
-            sample["edit_distance"] = edit_distance
-            sample["normalized_edit_distance"] = normalized_dist
-        else:
-            sample["edit_distance"] = -1  # 表示没有可比较的内容
-            sample["normalized_edit_distance"] = -1
-        
-        # 添加block_name到输出
-        sample["block_name"] = base_name
-        
-        # 保存JSON文件
-        json_file_path = os.path.join(output_path, f"{base_name}.json")
-        with open(json_file_path, "w", encoding="utf-8") as f:
-            json.dump(sample, f, ensure_ascii=False, indent=2)
+            except Exception:
+                # 忽略读取错误
+                pass
     
-    # 4. 计算并输出编辑距离的平均分
-    if edit_distances:
-        avg_edit_distance = sum(edit_distances) / len(edit_distances)
-        avg_normalized_distance = sum(normalized_distances) / len(normalized_distances)
+    # 计算平均值
+    avg_edit_distance = edit_distances_sum / valid_samples_count if valid_samples_count > 0 else 0.0
+    avg_normalized_distance = normalized_distances_sum / valid_samples_count if valid_samples_count > 0 else 0.0
+    
+    print(f"  有效样本: {valid_samples_count}/{len(filtered_samples)}")
+    print(f"  原始编辑距离平均值: {avg_edit_distance:.2f}")
+    print(f"  归一化编辑距离平均值: {avg_normalized_distance:.4f}")
+    
+    return avg_edit_distance, avg_normalized_distance, len(filtered_samples), valid_samples_count
+
+def get_formula(input_path, formula_gt_dir):
+    """
+    处理所有JSONL文件，只计算平均值
+    
+    Args:
+        input_path (str): 输入目录，包含多个JSONL文件
+        formula_gt_dir (str): GT文件目录
+    """
+    # 获取所有JSONL文件
+    jsonl_files = []
+    for item in os.listdir(input_path):
+        item_path = os.path.join(input_path, item)
+        if os.path.isfile(item_path) and item.endswith('.jsonl'):
+            jsonl_files.append((item_path, item))
+    
+    print(f"找到 {len(jsonl_files)} 个JSONL文件")
+    print("=" * 60)
+    
+    if not jsonl_files:
+        print("错误: 没有找到JSONL文件")
+        return
+    
+    # 处理每个JSONL文件
+    results = []
+    total_edit_distance_sum = 0
+    total_normalized_distance_sum = 0
+    total_valid_samples = 0
+    
+    for jsonl_file_path, jsonl_filename in jsonl_files:
+        # 提取文件名（不带扩展名）
+        jsonl_name = os.path.splitext(jsonl_filename)[0]
         
-        # 计算更多统计信息
-        min_edit_distance = min(edit_distances)
-        max_edit_distance = max(edit_distances)
-        median_edit_distance = statistics.median(edit_distances) if len(edit_distances) >= 1 else 0
+        # 处理单个JSONL文件
+        avg_edit, avg_norm, total_samples, valid_samples = process_single_jsonl(
+            jsonl_file_path, jsonl_name, formula_gt_dir
+        )
         
-        min_norm_distance = min(normalized_distances)
-        max_norm_distance = max(normalized_distances)
-        median_norm_distance = statistics.median(normalized_distances) if len(normalized_distances) >= 1 else 0
+        results.append({
+            "file": jsonl_name,
+            "avg_edit_distance": avg_edit,
+            "avg_normalized_edit_distance": avg_norm,
+            "total_samples": total_samples,
+            "valid_samples": valid_samples
+        })
         
-        print("\n" + "="*60)
-        print("编辑距离统计结果:")
-        print("="*60)
-        print(f"有效比较样本数量: {len(edit_distances)}")
-        print(f"原始编辑距离统计:")
-        print(f"  平均值: {avg_edit_distance:.2f}")
-        print(f"  最小值: {min_edit_distance}")
-        print(f"  最大值: {max_edit_distance}")
-        print(f"  中位数: {median_edit_distance:.2f}")
-        print(f"归一化编辑距离统计 (0-1, 0表示完全相同):")
-        print(f"  平均值: {avg_normalized_distance:.4f}")
-        print(f"  最小值: {min_norm_distance:.4f}")
-        print(f"  最大值: {max_norm_distance:.4f}")
-        print(f"  中位数: {median_norm_distance:.4f}")
-        print("="*60)
+        # 累加总体统计
+        total_edit_distance_sum += avg_edit * valid_samples
+        total_normalized_distance_sum += avg_norm * valid_samples
+        total_valid_samples += valid_samples
         
-        # 保存统计结果到文件
-        stats_output_path = os.path.join(output_path, "edit_distance_stats.json")
-        stats = {
-            "total_samples": len(span_data_final_0826_2k_filtered),
-            "samples_with_gt": len(edit_distances),
-            "edit_distance_stats": {
-                "average": avg_edit_distance,
-                "min": min_edit_distance,
-                "max": max_edit_distance,
-                "median": median_edit_distance,
-                "all_distances": edit_distances
-            },
-            "normalized_edit_distance_stats": {
-                "average": avg_normalized_distance,
-                "min": min_norm_distance,
-                "max": max_norm_distance,
-                "median": median_norm_distance,
-                "all_distances": normalized_distances
-            }
-        }
-        
-        with open(stats_output_path, "w", encoding="utf-8") as f:
-            json.dump(stats, f, ensure_ascii=False, indent=2)
-        
-        print(f"统计结果已保存到: {stats_output_path}")
-    else:
-        print("\n警告: 没有找到任何有效的编辑距离数据（可能没有对应的.md文件）")
+        print()
+    
+    print("=" * 60)
+    print("各JSONL文件编辑距离平均值统计:")
+    print("=" * 60)
+    
+    # 输出每个JSONL文件的统计结果
+    for result in results:
+        print(f"文件: {result['file']}")
+        print(f"  总样本数: {result['total_samples']}")
+        print(f"  有效样本数: {result['valid_samples']}")
+        print(f"  原始编辑距离平均值: {result['avg_edit_distance']:.2f}")
+        print(f"  归一化编辑距离平均值: {result['avg_normalized_edit_distance']:.4f}")
+        print()
+    
+    
 
 if __name__ == "__main__":
     input_path = r"D:\pdf-bench-v2\SingleDocBench\formula_data"
-    output_path = r"D:\pdf-bench-v2\SingleDocBench\formula_result"
     formula_gt_dir = r"D:\pdf-bench-v2\SingleDocBench\formula_gt\formula_gt"
-    
-    # 确保输出目录存在
-    os.makedirs(output_path, exist_ok=True)
     
     # 检查nltk数据是否可用
     try:
         from nltk.corpus import wordnet
     except LookupError:
-        print("Downloading nltk wordnet data...")
+        print("下载nltk wordnet数据...")
         import nltk
         nltk.download('wordnet')
     
-    get_formula(input_path, output_path, formula_gt_dir)
-    print("Processing completed!")
+    start_time = time.time()
+    get_formula(input_path, formula_gt_dir)
+    
+    end_time = time.time()
+    print(f"\n处理完成! 总耗时: {end_time - start_time:.2f} 秒")

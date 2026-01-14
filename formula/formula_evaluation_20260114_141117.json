@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-01-14 14:11:17",
+  "input_path": "D:\\pdf-bench-v2\\SingleDocBench\\formula_data",
+  "formula_gt_dir": "D:\\pdf-bench-v2\\SingleDocBench\\formula_gt\\formula_gt",
+  "results": [
+    {
+      "file": "公式识别（飞数试标25）",
+      "avg_edit_distance": 133.08823529411765,
+      "avg_normalized_edit_distance": 0.37894543182491935,
+      "total_samples": 34,
+      "valid_samples": 34
+    }
+  ],
+  "overall": {
+    "total_valid_samples": 34,
+    "overall_avg_edit_distance": 133.08823529411765,
+    "overall_avg_normalized_edit_distance": 0.37894543182491935
+  }
+}
