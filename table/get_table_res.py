@@ -217,14 +217,16 @@ def process_single_data(data: Dict[str, Any]) -> Tuple[str, Dict[str, Any]]:
         "rotated_angle_180": 180,
         "rotated_angle_270": 90,
     }
-    
     # 检查问卷是否有效
-    if data['evaluation']['questionnaire_evaluation']['is_invalid_questionnaire']:
+    if data.get('evaluation', {}).get('questionnaire_evaluation', {}) is None:
         return None, None
-    
+    if data.get('evaluation', {}).get('questionnaire_evaluation', {}).get('is_invalid_questionnaire') is None:
+        return None, None 
     # 获取预测的表格内容
     table_content = data['evaluation']['conversation_evaluation']
     pred = None
+    if table_content is None:
+        return None, None
     for item in table_content:
         if "boxes" in table_content[item] and table_content[item]["boxes"]:
             pred = table_content[item]["boxes"][0]["attributes"]['content']
@@ -379,7 +381,8 @@ def main():
     """
     主函数：处理所有JSONL文件
     """
-    input_path = r"D:\pdf-bench-v2\SingleDocBench\table_data"
+    #input_path = r"D:\pdf-bench-v2\SingleDocBench\table_data"
+    input_path = r"D:\pdf-bench-v2\SingleDocBench\未跑—表格识别知识产权"
     output_path = r"D:\pdf-bench-v2\SingleDocBench\table_result"
     
     # 确保输出基础目录存在

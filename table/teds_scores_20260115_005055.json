@@ -1,0 +1,3073 @@
+{
+  "timestamp": "2026-01-15 00:50:55",
+  "gt_dir": "D:\\pdf-bench-v2\\SingleDocBench\\table_gt\\table_gt",
+  "pred_base_dir": "D:\\pdf-bench-v2\\SingleDocBench\\table_result",
+  "gt_file_count": 25,
+  "folder_results": [
+    {
+      "folder_name": "表格识别（知识产权-试标15)",
+      "avg_teds": 0.8040511590549008,
+      "avg_steds": 0.9053714398756737,
+      "file_count": 20,
+      "matched_count": 20,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9729619804314926,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.5164102523931129,
+          "TEDS-S": 0.5633802816901409
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5149912398551237,
+          "TEDS-S": 0.631578947368421
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9968299190521412,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8441488463129198,
+          "TEDS-S": 0.8481012658227848
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7711529297709421,
+          "TEDS-S": 0.8695652173913043
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9964212678936605,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.46643166385340873,
+          "TEDS-S": 0.896551724137931
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8699919816602555,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.6519447723993178,
+          "TEDS-S": 0.7045454545454546
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7994987468671679,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8457765268538575,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7317647058823529,
+          "TEDS-S": 0.88
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8422978253277584,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.8463955594013269,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9639886107078638,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9533777311066066,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.5861908601346781,
+          "TEDS-S": 0.8032581453634086
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标10）__",
+      "avg_teds": 0.8129773992862757,
+      "avg_steds": 0.9149060970472448,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9731672698885814,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.7963504361024191,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5575757575757576,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9975621647976597,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8879141360014577,
+          "TEDS-S": 0.9054054054054054
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7717619122000564,
+          "TEDS-S": 0.8701030927835052
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9764138389886893,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.6200234105990607,
+          "TEDS-S": 0.9545454545454546
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.7854420330271723,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.8988754173256018,
+          "TEDS-S": 0.9261992619926199
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": -0.0035074045206546778,
+          "TEDS-S": -0.002338269680436378
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7994987468671679,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.809243295019157,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7317647058823529,
+          "TEDS-S": 0.88
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8408163769697692,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.8513331395512436,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.8225781883506729,
+          "TEDS-S": 0.8417508417508417
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9412055670218306,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.826865671641791,
+          "TEDS-S": 0.826865671641791
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.981389284020863,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.90625,
+          "TEDS-S": 0.90625
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.5519110348462393,
+          "TEDS-S": 0.7638709677419355
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标11）__",
+      "avg_teds": 0.6424960208013032,
+      "avg_steds": 0.7658472004269029,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9731672698885814,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.18426215442632743,
+          "TEDS-S": 0.24390243902439024
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5434782608695652,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.06666666666666665,
+          "TEDS-S": 0.06666666666666665
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8496861075053328,
+          "TEDS-S": 0.9477124183006536
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7717619122000564,
+          "TEDS-S": 0.8701030927835052
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.8301548600399175,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.6361620305079683,
+          "TEDS-S": 0.9574468085106383
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.7863658230386171,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.14015151515151514,
+          "TEDS-S": 0.16287878787878785
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.2119565217391305,
+          "TEDS-S": 0.2119565217391305
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7700291362056068,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.7502428912806272,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.7258534573165611,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7190126050420168,
+          "TEDS-S": 0.90625
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8341456704016288,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.6443181818181818,
+          "TEDS-S": 0.6888888888888889
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.21276595744680848,
+          "TEDS-S": 0.21702127659574466
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9641025641025641,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.826865671641791,
+          "TEDS-S": 0.826865671641791
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8933442396097195,
+          "TEDS-S": 0.9632352941176471
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 0.4814814814814815,
+          "TEDS-S": 0.4814814814814815
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.3359777804578834,
+          "TEDS-S": 0.6913229018492176
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标12）___",
+      "avg_teds": 0.8425322785275721,
+      "avg_steds": 0.9562382521344772,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9729619804314926,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.7963504361024191,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.7072067043466639,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.997760803221554,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.9935699832164804,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7711529297709421,
+          "TEDS-S": 0.8695652173913043
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.991084497671324,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.46792244321959775,
+          "TEDS-S": 0.9310344827586207
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.845926878551313,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9700749559082893,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.7748001390337157,
+          "TEDS-S": 0.781021897810219
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7938459785828207,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.88268156424581,
+          "TEDS-S": 0.9106145251396648
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8333333333333334,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7953964194373402,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.7941176470588236,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9800326135852452,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9641025641025641,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8267462686567164,
+          "TEDS-S": 0.826865671641791
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8458276797829036,
+          "TEDS-S": 0.8694029850746269
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 0.997747055811572,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.36066408711838094,
+          "TEDS-S": 0.7174515235457064
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标13）___",
+      "avg_teds": 0.8148790252735901,
+      "avg_steds": 0.908725536345064,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9565687361419069,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.19401825198730294,
+          "TEDS-S": 0.24390243902439024
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5718725718725719,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9980677898766636,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.9621638827259145,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7709756179649492,
+          "TEDS-S": 0.8706365503080082
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9856850715746421,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.7166732876291699,
+          "TEDS-S": 0.8035714285714286
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8363197648911935,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.971252204585538,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.4375,
+          "TEDS-S": 0.4375
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7848234221918433,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8264194970184081,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.782608695652174,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8055555555555556,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9804384942542838,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9618320610687023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8176633592562796,
+          "TEDS-S": 0.8230088495575221
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8438735177865613,
+          "TEDS-S": 0.8616600790513834
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.5572160886120663,
+          "TEDS-S": 0.7674113009198423
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标14）___",
+      "avg_teds": 0.7829722240908273,
+      "avg_steds": 0.8739774264584682,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9690201192250373,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.19401825198730294,
+          "TEDS-S": 0.24390243902439024
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5575757575757576,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9982544204766427,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.9213383802636106,
+          "TEDS-S": 0.9562043795620438
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.370015984535891,
+          "TEDS-S": 0.40749414519906324
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9971881390593047,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.543950957642348,
+          "TEDS-S": 0.72
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8339293518981019,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9721634332745444,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.41786816872977706,
+          "TEDS-S": 0.4365482233502538
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7929186602870814,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8785498909881289,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7317647058823529,
+          "TEDS-S": 0.88
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8055555555555556,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.8196308656453584,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.825472427397737,
+          "TEDS-S": 0.8368055555555556
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9559042051959518,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8225159607948925,
+          "TEDS-S": 0.827893175074184
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8447159565580619,
+          "TEDS-S": 0.8611111111111112
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.4115066481032169,
+          "TEDS-S": 0.7690288713910761
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标15）___",
+      "avg_teds": 0.48294723612665735,
+      "avg_steds": 0.5801528301777699,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9729619804314926,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.1818231300360834,
+          "TEDS-S": 0.24390243902439024
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.125,
+          "TEDS-S": 0.125
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.06666666666666665,
+          "TEDS-S": 0.06666666666666665
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.04793622343940851,
+          "TEDS-S": 0.33834586466165417
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.08805244692210612,
+          "TEDS-S": 0.7513416815742398
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9808715901530273,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.46643166385340873,
+          "TEDS-S": 0.896551724137931
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.7848531288055413,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.08712121212121215,
+          "TEDS-S": 0.09469696969696972
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.27542857142857147,
+          "TEDS-S": 0.28
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7964912280701755,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8552188552188552,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.4444444444444444,
+          "TEDS-S": 0.5
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.7,
+          "TEDS-S": 0.85
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.44067796610169496,
+          "TEDS-S": 0.44067796610169496
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.21276595744680848,
+          "TEDS-S": 0.21702127659574466
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.977948717948718,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 0.8737017884076708,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.15492957746478875,
+          "TEDS-S": 0.15492957746478875
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.16382171645329535,
+          "TEDS-S": 0.16666666666666663
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 0.2962962962962963,
+          "TEDS-S": 0.2962962962962963
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.08023774145616647,
+          "TEDS-S": 0.08172362555720658
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标16）___",
+      "avg_teds": 0.8100983592000682,
+      "avg_steds": 0.8951055763772954,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9684251047055925,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.19401825198730294,
+          "TEDS-S": 0.24390243902439024
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.6411033594907833,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.997886301974888,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.961086431811565,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7709756179649492,
+          "TEDS-S": 0.8706365503080082
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9856850715746421,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.6574643128014228,
+          "TEDS-S": 0.7608695652173914
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8384149033470301,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.97168430335097,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.2432432432432432,
+          "TEDS-S": 0.25
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7848234221918433,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8375,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7420814479638009,
+          "TEDS-S": 0.8846153846153846
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.7837837837837838,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.8005479037870342,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9838331283524846,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9545454545454546,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8230410615025999,
+          "TEDS-S": 0.8284023668639053
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8438735177865613,
+          "TEDS-S": 0.8616600790513834
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.5579945966417186,
+          "TEDS-S": 0.7671052631578947
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标18）___",
+      "avg_teds": 0.789237904235902,
+      "avg_steds": 0.8991076747321078,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9729619804314926,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.19401825198730294,
+          "TEDS-S": 0.24390243902439024
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.6477626369251985,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9982544204766427,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8153206301533862,
+          "TEDS-S": 0.8195488721804511
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7711529297709421,
+          "TEDS-S": 0.8695652173913043
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9979550102249489,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.46643166385340873,
+          "TEDS-S": 0.896551724137931
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.879125404007757,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.6791486291486292,
+          "TEDS-S": 0.6931818181818181
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.3314819967722188,
+          "TEDS-S": 0.3377483443708609
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7964912280701755,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8333333333333334,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7953964194373402,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8055555555555556,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7226589835285487,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9784090909090909,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9618320610687023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.823081182383508,
+          "TEDS-S": 0.8255813953488372
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.9327731092436975,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.32780308861567065,
+          "TEDS-S": 0.7916120576671035
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标19）___",
+      "avg_teds": 0.8111206143530183,
+      "avg_steds": 0.9296840402474961,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9725385386970753,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.7838999682186556,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5454545454545454,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9478114478114478,
+          "TEDS-S": 0.9562289562289562
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.864434775609419,
+          "TEDS-S": 0.8717948717948718
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7709756179649492,
+          "TEDS-S": 0.8706365503080082
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9620758483033932,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.46792244321959775,
+          "TEDS-S": 0.9310344827586207
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8439535713402637,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9705379188712522,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.3941605839416058,
+          "TEDS-S": 0.3941605839416058
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7848234221918433,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8264194970184081,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7317647058823529,
+          "TEDS-S": 0.88
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8055555555555556,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9840979961049845,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9618320610687023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8230410615025999,
+          "TEDS-S": 0.8284023668639053
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8468992248062015,
+          "TEDS-S": 0.8643410852713178
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.3793688140685756,
+          "TEDS-S": 0.7350543478260869
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标20）___",
+      "avg_teds": 0.803895028385974,
+      "avg_steds": 0.9169988206779272,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9729619804314926,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.19401825198730294,
+          "TEDS-S": 0.24390243902439024
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5454545454545454,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9957340710301793,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.7868045138452797,
+          "TEDS-S": 0.8743169398907104
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7707137141550721,
+          "TEDS-S": 0.8703703703703703
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9767258382642998,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.5172977272281798,
+          "TEDS-S": 0.9375
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.86466148793735,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.957235461344244,
+          "TEDS-S": 0.9854014598540146
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.5256966889319831,
+          "TEDS-S": 0.554945054945055
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7919298245614036,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8636295660637138,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7953964194373402,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8157894736842105,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7050691244239631,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.8767139914956265,
+          "TEDS-S": 0.8893617021276596
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9755725190839695,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.9924953095684803,
+          "TEDS-S": 0.9930313588850174
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.9712557675520639,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.2917716719746276,
+          "TEDS-S": 0.6656934306569343
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标21）___",
+      "avg_teds": 0.8227873391534862,
+      "avg_steds": 0.9360881119456351,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9725739164017172,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.4788569148078017,
+          "TEDS-S": 0.5267175572519084
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5454545454545454,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9708950171913134,
+          "TEDS-S": 0.9831649831649831
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.7298773251508694,
+          "TEDS-S": 0.7433155080213903
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7711529297709421,
+          "TEDS-S": 0.8695652173913043
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9793246839654025,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.5836710121449095,
+          "TEDS-S": 0.95
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8403510551948052,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9714638447971782,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.5037186669539611,
+          "TEDS-S": 0.532967032967033
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7913784461152883,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.8336436995654873,
+          "TEDS-S": 0.9106145251396648
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8333333333333334,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7953964194373402,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8055555555555556,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9804384942542838,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9618320610687023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.9924953095684803,
+          "TEDS-S": 0.9930313588850174
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.9327731092436975,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.6850493776675137,
+          "TEDS-S": 0.9823788546255506
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标22）___",
+      "avg_teds": 0.8050586604119697,
+      "avg_steds": 0.9271205581075534,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9725385386970753,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.1976767885726688,
+          "TEDS-S": 0.29268292682926833
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5454545454545454,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.971667801700805,
+          "TEDS-S": 0.9801980198019802
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.7163647343589237,
+          "TEDS-S": 0.8113207547169812
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7711529297709421,
+          "TEDS-S": 0.8695652173913043
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.8994107744107743,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.46643166385340873,
+          "TEDS-S": 0.896551724137931
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8479548229548229,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9714638447971782,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.5256966889319831,
+          "TEDS-S": 0.554945054945055
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7928822055137845,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.8336436995654873,
+          "TEDS-S": 0.9106145251396648
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8343118069145466,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7953964194373402,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.7941176470588236,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7050691244239631,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9784090909090909,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9618320610687023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.9692832764505119,
+          "TEDS-S": 0.9692832764505119
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.9798206278026906,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.6854396564571437,
+          "TEDS-S": 0.9824046920821115
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标23）___",
+      "avg_teds": 0.7289265391528639,
+      "avg_steds": 0.8775861662753861,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9579237496920424,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.4843094775122727,
+          "TEDS-S": 0.5267175572519084
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.6820512820512821,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.7118886276679111,
+          "TEDS-S": 0.9515972894482091
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8131010727836077,
+          "TEDS-S": 0.8871794871794871
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7709756179649492,
+          "TEDS-S": 0.8706365503080082
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9604086845466155,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.6436961502885938,
+          "TEDS-S": 0.9583333333333334
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.7843442698281409,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.8254954884472957,
+          "TEDS-S": 0.9658634538152611
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.5256966889319831,
+          "TEDS-S": 0.554945054945055
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7565678714492944,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.88268156424581,
+          "TEDS-S": 0.9106145251396648
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.7368754726839464,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.4772727272727273,
+          "TEDS-S": 0.5909090909090908
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.6846414550361919,
+          "TEDS-S": 0.8409090909090909
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7246908207304247,
+          "TEDS-S": 0.9504950495049505
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.8611279475781155,
+          "TEDS-S": 0.8851063829787233
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.953030303030303,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 0.866515215553677,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.9864179199795639,
+          "TEDS-S": 0.9931506849315068
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8468560743759812,
+          "TEDS-S": 0.8708487084870848
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 0.43103448275862066,
+          "TEDS-S": 0.5172413793103448
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.6078053259871441,
+          "TEDS-S": 0.9504132231404958
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.2477551884251068,
+          "TEDS-S": 0.7146932952924394
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标24）___",
+      "avg_teds": 0.7686964615345593,
+      "avg_steds": 0.8994299750093709,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9565687361419069,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.4775929973872778,
+          "TEDS-S": 0.5193798449612403
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5454545454545454,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9955062084691715,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8284829617072741,
+          "TEDS-S": 0.8562874251497006
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7702763311839065,
+          "TEDS-S": 0.8711656441717791
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9569300431369396,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.46823100606600354,
+          "TEDS-S": 0.8484848484848485
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8414835164835165,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.7133831310301898,
+          "TEDS-S": 0.8562091503267975
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.5256966889319831,
+          "TEDS-S": 0.554945054945055
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.788922305764411,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.8336436995654873,
+          "TEDS-S": 0.9106145251396648
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8264194970184081,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7317647058823529,
+          "TEDS-S": 0.88
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.7941176470588236,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9767151557060213,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9618320610687023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.9863242504621815,
+          "TEDS-S": 0.993103448275862
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.9748955241959906,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 0.4814814814814815,
+          "TEDS-S": 0.4814814814814815
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.6686213991769547,
+          "TEDS-S": 0.9444444444444444
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.4130676449904519,
+          "TEDS-S": 0.7696335078534031
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标25）___",
+      "avg_teds": 0.7600189357914435,
+      "avg_steds": 0.8713849900042205,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9729619804314926,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.5087192814168447,
+          "TEDS-S": 0.5474452554744526
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.6818181818181819,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9946823621320265,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.7854591793945307,
+          "TEDS-S": 0.922077922077922
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7704471444935361,
+          "TEDS-S": 0.8701030927835052
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.750771727970425,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.606166974958723,
+          "TEDS-S": 0.95
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8432149656836253,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9037878787878788,
+          "TEDS-S": 0.9356060606060606
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.45690021231422506,
+          "TEDS-S": 0.47770700636942676
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.8125836680053548,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.8336436995654873,
+          "TEDS-S": 0.9106145251396648
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.878727213001572,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.4444444444444444,
+          "TEDS-S": 0.5
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.829635026263589,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.8023735474436737,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.21276595744680848,
+          "TEDS-S": 0.21702127659574466
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9545454545454546,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8272479732656723,
+          "TEDS-S": 0.8289085545722714
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.9713735717834079,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.2477551884251068,
+          "TEDS-S": 0.7146932952924394
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标4）",
+      "avg_teds": 0.8295194079285291,
+      "avg_steds": 0.9431229771933546,
+      "file_count": 23,
+      "matched_count": 23,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9727200577200578,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.7963504361024191,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5718725718725719,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9456573327005221,
+          "TEDS-S": 0.9667774086378738
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8899201822928895,
+          "TEDS-S": 0.9
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7711529297709421,
+          "TEDS-S": 0.8695652173913043
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9563492063492064,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.5556759872718404,
+          "TEDS-S": 0.6764705882352942
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8372757186316508,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9587066431510876,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7848234221918433,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8333333333333334,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7317647058823529,
+          "TEDS-S": 0.88
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8055555555555556,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9804384942542838,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9618320610687023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.826865671641791,
+          "TEDS-S": 0.826865671641791
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8438735177865613,
+          "TEDS-S": 0.8616600790513834
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.3547785547785549,
+          "TEDS-S": 0.7104895104895105
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标5）",
+      "avg_teds": 0.8356643341931952,
+      "avg_steds": 0.9271526323391978,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9579237496920424,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.7888738005884004,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5683333333333334,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9726675485008819,
+          "TEDS-S": 0.9766666666666667
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8202592534119805,
+          "TEDS-S": 0.8321167883211679
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.8582185831321777,
+          "TEDS-S": 0.967741935483871
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9964212678936605,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.6439261892786226,
+          "TEDS-S": 0.75
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8401005773887129,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9489456609894567,
+          "TEDS-S": 0.9781021897810219
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.2214765100671141,
+          "TEDS-S": 0.2214765100671141
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7964912280701755,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8375,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7953964194373402,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8182083159242628,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.8536172633056691,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.7919349407591288,
+          "TEDS-S": 0.8042553191489361
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9621212121212122,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.9690207403517984,
+          "TEDS-S": 0.9692832764505119
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.979811507936508,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.55991249145337,
+          "TEDS-S": 0.7687253613666228
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标6）_",
+      "avg_teds": 0.6475837085937193,
+      "avg_steds": 0.7674751785173841,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9729395831854848,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.497107382688584,
+          "TEDS-S": 0.5407407407407407
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.6267147472015626,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.06666666666666665,
+          "TEDS-S": 0.06666666666666665
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8401007643989696,
+          "TEDS-S": 0.8441558441558441
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7717619122000564,
+          "TEDS-S": 0.8701030927835052
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.8452052707072787,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.6381031716933422,
+          "TEDS-S": 0.9347826086956522
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.782365066236034,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.1256737333812432,
+          "TEDS-S": 0.15909090909090906
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.24444444444444446,
+          "TEDS-S": 0.24637681159420288
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7843640041060156,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.747891032687271,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.7074829931972789,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.45238095238095233,
+          "TEDS-S": 0.5714285714285714
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8026938752169007,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.6328709265418127,
+          "TEDS-S": 0.6455696202531646
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.2129361702127659,
+          "TEDS-S": 0.21702127659574466
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.963340916990552,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.826865671641791,
+          "TEDS-S": 0.826865671641791
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8447159565580619,
+          "TEDS-S": 0.8611111111111112
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 0.5495495495495496,
+          "TEDS-S": 0.6216216216216216
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.34297016176233,
+          "TEDS-S": 0.8708971553610503
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标7）__",
+      "avg_teds": 0.8176778379627391,
+      "avg_steds": 0.9282661994218375,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9684251047055925,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.7963504361024191,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.6411033594907833,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9980045867417882,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.7716823616254398,
+          "TEDS-S": 0.7785234899328859
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7711529297709421,
+          "TEDS-S": 0.8695652173913043
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9964212678936605,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.5565784599696108,
+          "TEDS-S": 0.95
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.7853241563719505,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9660282317108886,
+          "TEDS-S": 0.992619926199262
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.3715873015873016,
+          "TEDS-S": 0.3928571428571429
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.788922305764411,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.9946506484968023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8375,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7317647058823529,
+          "TEDS-S": 0.88
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8271798693924859,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.8058903727264932,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9692577207473124,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9412055670218306,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8280886786148128,
+          "TEDS-S": 0.8299120234604106
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8103263114415531,
+          "TEDS-S": 0.8698884758364313
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9101449275362319,
+          "TEDS-S": 0.9130434782608696
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.37435664547381187,
+          "TEDS-S": 0.7302452316076294
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标8）__",
+      "avg_teds": 0.8569892355105434,
+      "avg_steds": 0.9475371298783044,
+      "file_count": 25,
+      "matched_count": 25,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9731672698885814,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.7963504361024191,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.7196659935234015,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9980677898766636,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.8437922485796906,
+          "TEDS-S": 0.8588235294117648
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7717619122000564,
+          "TEDS-S": 0.8701030927835052
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9776114437791085,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.6437023079240618,
+          "TEDS-S": 0.9583333333333334
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.8620116811293281,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9691296198676272,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.7770594369134516,
+          "TEDS-S": 0.781021897810219
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.769609302090702,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.9714814814814815,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.86291246831454,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7317647058823529,
+          "TEDS-S": 0.88
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.8322780926622289,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.8433464340332981,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9883140781312056,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.9775091575091575,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8263473053892215,
+          "TEDS-S": 0.8263473053892215
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8447159565580619,
+          "TEDS-S": 0.8611111111111112
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 1.0,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.9104477611940298,
+          "TEDS-S": 0.9104477611940298
+        },
+        "block-PI7rHXRHsV-Bdxzn": {
+          "TEDS": 0.5336840047329157,
+          "TEDS-S": 0.7422402159244265
+        }
+      }
+    },
+    {
+      "folder_name": "表格识别（飞数试标9）__",
+      "avg_teds": 0.8058884020637263,
+      "avg_steds": 0.9517236197786098,
+      "file_count": 24,
+      "matched_count": 24,
+      "individual_scores": {
+        "block-PI7r2XRHsV-BdxV5": {
+          "TEDS": 0.9729619804314926,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r4lE5Qk-COTBP": {
+          "TEDS": 0.7963504361024191,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r5nJiX--CLHcK": {
+          "TEDS": 0.5333333333333333,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r698_u--AJp8z": {
+          "TEDS": 0.9980045867417882,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r6ws_Dk-B-Q9c": {
+          "TEDS": 0.9779259521907386,
+          "TEDS-S": 1.0
+        },
+        "block-PI7r8gs_Dk-B-QCd": {
+          "TEDS": 0.7711529297709421,
+          "TEDS-S": 0.8695652173913043
+        },
+        "block-PI7rBplg5--9dkkj": {
+          "TEDS": 0.9762664253735682,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rCxP21V-9DXL5": {
+          "TEDS": 0.5836710121449095,
+          "TEDS-S": 0.95
+        },
+        "block-PI7rD0E5Qk-COTJy": {
+          "TEDS": 0.779111882269777,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rE6FgdV-A551L": {
+          "TEDS": 0.9627848064194928,
+          "TEDS-S": 0.992619926199262
+        },
+        "block-PI7rF0E5Qk-COTMn": {
+          "TEDS": 0.3685300207039338,
+          "TEDS-S": 0.3726708074534162
+        },
+        "block-PI7rFwUsDV-B4n5J": {
+          "TEDS": 0.7712340760075987,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rFwUsDV-B4n5P": {
+          "TEDS": 0.9812865497076023,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rG6DbU--CUxyv": {
+          "TEDS": 0.8333333333333334,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGcQIwV-9b8A4": {
+          "TEDS": 0.7701525054466231,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGdw7zV-AgA8Q": {
+          "TEDS": 0.80046768707483,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGe8_u--AJpRf": {
+          "TEDS": 0.7547539930518654,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rGoNW1V-BSBko": {
+          "TEDS": 0.9011977636983413,
+          "TEDS-S": 0.9552238805970149
+        },
+        "block-PI7rH-EHvV-Bk-R_": {
+          "TEDS": 0.7540755258661668,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHplg5--9dkut": {
+          "TEDS": 0.868342972816657,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHrDbU--CUy0x": {
+          "TEDS": 0.8287469696165348,
+          "TEDS-S": 0.8318840579710145
+        },
+        "block-PI7rHrFgdV-A558O": {
+          "TEDS": 0.8471194664635355,
+          "TEDS-S": 0.8694029850746269
+        },
+        "block-PI7rHwxrzV-BGVKu": {
+          "TEDS": 0.862230403926907,
+          "TEDS-S": 1.0
+        },
+        "block-PI7rHXHYB--99oeK": {
+          "TEDS": 0.648287037037037,
+          "TEDS-S": 1.0
+        }
+      }
+    }
+  ],
+  "overall_scores": {
+    "avg_teds": 0.8996165077437471,
+    "avg_steds": 0.9873061017456416,
+    "total_files": 25
+  },
+  "best_scores_per_file": {
+    "block-PI7r2XRHsV-BdxV5": {
+      "TEDS": 0.9731672698885814,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7r4lE5Qk-COTBP": {
+      "TEDS": 0.7963504361024191,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7r5nJiX--CLHcK": {
+      "TEDS": 0.7196659935234015,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7r698_u--AJp8z": {
+      "TEDS": 0.9982544204766427,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7r6ws_Dk-B-Q9c": {
+      "TEDS": 0.9935699832164804,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7r8gs_Dk-B-QCd": {
+      "TEDS": 0.8582185831321777,
+      "TEDS-S": 0.967741935483871,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rBplg5--9dkkj": {
+      "TEDS": 0.9979550102249489,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rCxP21V-9DXL5": {
+      "TEDS": 0.7166732876291699,
+      "TEDS-S": 0.9583333333333334,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rD0E5Qk-COTJy": {
+      "TEDS": 0.879125404007757,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rE6FgdV-A551L": {
+      "TEDS": 0.9721634332745444,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rFwUsDV-B4n5J": {
+      "TEDS": 0.8125836680053548,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rFwUsDV-B4n5P": {
+      "TEDS": 1.0,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rG6DbU--CUxyv": {
+      "TEDS": 0.878727213001572,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rGcQIwV-9b8A4": {
+      "TEDS": 0.7953964194373402,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rGdw7zV-AgA8Q": {
+      "TEDS": 0.8422978253277584,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rGe8_u--AJpRf": {
+      "TEDS": 0.8536172633056691,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rGoNW1V-BSBko": {
+      "TEDS": 0.9883140781312056,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rH-EHvV-Bk-R_": {
+      "TEDS": 0.977948717948718,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rHXHYB--99oeK": {
+      "TEDS": 1.0,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rHXRHsV-Bdxzn": {
+      "TEDS": 0.6854396564571437,
+      "TEDS-S": 0.9824046920821115,
+      "folders": [
+        "表格识别（知识产权-试标15)",
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__"
+      ]
+    },
+    "block-PI7rF0E5Qk-COTMn": {
+      "TEDS": 0.7770594369134516,
+      "TEDS-S": 0.781021897810219,
+      "folders": [
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rHplg5--9dkut": {
+      "TEDS": 1.0,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rHrDbU--CUy0x": {
+      "TEDS": 0.9924953095684803,
+      "TEDS-S": 0.9931506849315068,
+      "folders": [
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rHrFgdV-A558O": {
+      "TEDS": 0.981389284020863,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    },
+    "block-PI7rHwxrzV-BGVKu": {
+      "TEDS": 1.0,
+      "TEDS-S": 1.0,
+      "folders": [
+        "表格识别（飞数试标10）__",
+        "表格识别（飞数试标11）__",
+        "表格识别（飞数试标12）___",
+        "表格识别（飞数试标13）___",
+        "表格识别（飞数试标14）___",
+        "表格识别（飞数试标15）___",
+        "表格识别（飞数试标16）___",
+        "表格识别（飞数试标18）___",
+        "表格识别（飞数试标19）___",
+        "表格识别（飞数试标20）___",
+        "表格识别（飞数试标21）___",
+        "表格识别（飞数试标22）___",
+        "表格识别（飞数试标23）___",
+        "表格识别（飞数试标24）___",
+        "表格识别（飞数试标25）___",
+        "表格识别（飞数试标4）",
+        "表格识别（飞数试标5）",
+        "表格识别（飞数试标6）_",
+        "表格识别（飞数试标7）__",
+        "表格识别（飞数试标8）__",
+        "表格识别（飞数试标9）__"
+      ]
+    }
+  }
+}
